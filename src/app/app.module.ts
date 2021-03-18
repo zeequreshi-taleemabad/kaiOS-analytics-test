@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BtnScreenComponent } from './btn-screen/btn-screen.component';
+import { VidScreenComponent } from './vid-screen/vid-screen.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BtnScreenComponent,
+    VidScreenComponent
   ],
   imports: [
     BrowserModule,
